@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box                                                                                          ;
+
+}
+
+header
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img 
+{
+    border-radius: 2em;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    height: 5dvh;
+    width: 5vw;
+    border: none;
+    color: rgb(161, 16, 16);
+    border-radius: 2em;
+}
